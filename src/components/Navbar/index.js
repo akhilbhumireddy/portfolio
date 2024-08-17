@@ -13,10 +13,13 @@ import {
     MobileLink,
 } from './NavbarStyledComponent';
 import { DiCssdeck } from 'react-icons/di';
+import { CiDark } from 'react-icons/ci';
+import { CiLight } from 'react-icons/ci';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { useTheme } from 'styled-components';
-import { Switch } from '@mui/material'; // Import Switch from Material UI or use any other library
+import { Switch } from '@mui/material';
+import { Button } from '@mui/material'; // Import Switch from Material UI or use any other library
 
 const Navbar = ({ darkMode, setDarkMode }) => {
     // Receive darkMode and setDarkMode as props
@@ -32,7 +35,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                         style={{
                             display: 'flex',
                             alignItems: 'center',
-
                             marginBottom: '20;',
                             cursor: 'pointer',
                             textDecoration: 'none',
@@ -43,9 +45,27 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                     </a>
                 </NavLogo>
                 <MobileIcon>
+                    {' '}
+                    <Button
+                        onClick={() => setDarkMode(!darkMode)}
+                        style={{
+                            color: darkMode ? 'White' : 'black',
+                        }}
+                    >
+                        {darkMode ? (
+                            <CiLight size="1.75rem" />
+                        ) : (
+                            <CiDark size="1.75rem" />
+                        )}
+                    </Button>
+                </MobileIcon>
+                <MobileIcon>
                     <FaBars
                         onClick={() => {
                             setIsOpen(!isOpen);
+                        }}
+                        style={{
+                            marginTop: '0.5rem',
                         }}
                     />
                 </MobileIcon>
