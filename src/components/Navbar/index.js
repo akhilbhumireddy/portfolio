@@ -41,7 +41,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                         }}
                     >
                         <DiCssdeck size="3rem" />{' '}
-                        <Span style={{ fontSize: '1.5rem' }}>Prabhas</Span>
+                        <Span style={{ fontSize: '1.5rem' }}>Akhil</Span>
                     </a>
                 </NavLogo>
                 <MobileIcon>
