@@ -48,7 +48,7 @@ const HeroSection = () => {
 
           <HeroRightContainer id="Right">
             <Img
-              src="https://res.cloudinary.com/di4ieoutf/image/upload/v1723960019/pasport_dgud8t.jpg"
+              src="https://res.cloudinary.com/di4ieoutf/image/upload/v1723967685/WhatsApp_Image_2024-08-18_at_1.24.20_PM_wen9tr.jpg"
               alt="hero-image"
             />
           </HeroRightContainer>

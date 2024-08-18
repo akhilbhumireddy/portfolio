@@ -8,7 +8,7 @@ import wikepedia from "../images/wikepidia.png";
 import foodMunch from "../images/foodMunch.png";
 export const Bio = {
   name: "Akhil BhumiReddy",
-  roles: ["Full Stack Developer", "Programmer", "Freelancer"],
+  roles: ["Fresher", "Programmer", "Graduate", "Full Stack Developer"],
   description:
     "I am a driven and adaptable individual, always enthusiastic about embracing new challenges. My passion for continuous learning fuels my commitment to delivering exceptional results. With a positive outlook and a growth-oriented mindset, I am prepared to contribute meaningfully and strive for excellence",
   github: "https://github.com/akhilbhumireddy",
