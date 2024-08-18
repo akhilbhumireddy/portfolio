@@ -4,8 +4,6 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 
 ### Weblink: [Live Website](https://github.com/akhilbhumireddy/portfolio.git)
 
-
-
 ## Table of Contents
 
 - [Introduction](#introduction)
